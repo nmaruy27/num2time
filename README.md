@@ -15,15 +15,15 @@ yarn add @nmaruy27/num2time
 ```js
 import num2time from '@nmaruy27/num2time';
 
-let result = ntt(99999, 'hms');
+let result = num2time(99999, 'hms');
 // { hh: '27', mm: '46', ss: '39', timeformat: '27:46:39' }
 
-let result = ntt(99999, 'hm');
+let result = num2time(99999, 'hm');
 // { hh: '27', mm: '46', ss: '39', timeformat: '27:46' }
 
-let result = ntt(99999, 'h');
+let result = num2time(99999, 'h');
 // { hh: '27', mm: '46', ss: '39', timeformat: '27' }
 
-let result = ntt(99999, 'hms', '/');
+let result = num2time(99999, 'hms', '/');
 // { hh: '27', mm: '46', ss: '39', timeformat: '27/46/39' }
 ```
