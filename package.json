@@ -1,0 +1,30 @@
+{
+  "name": "@nmaruy27/num2time",
+  "version": "1.0.0",
+  "description": "convert numbers to time display",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmaruy27/num2time.git"
+  },
+  "keywords": [
+    "number",
+    "time",
+    "convert"
+  ],
+  "author": "Nobuchika Maruyama <nmaruy27@gmail.com> (https://blog.mrym.tv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmaruy27/num2time/issues"
+  },
+  "homepage": "https://github.com/nmaruy27/num2time#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
